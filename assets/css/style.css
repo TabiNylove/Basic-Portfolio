@@ -1,0 +1,33 @@
+body {
+	font-family: Trebuchet MS;
+	background-color: rgb(191, 255, 251);
+}
+
+header {
+	font-family: Tahoma;
+	text-align: center;
+	color: rgba(242, 196, 96, .5);
+	padding: 5px;
+	margin-bottom: 15px;
+	background-color: rgb(114, 78, 50);
+	box-shadow: 2px 3px 6px rgba(114, 80, 75, .5);
+}
+
+h2 {
+	float: left;
+	margin-left: 75px;
+	margin-right: 52%;
+	font-size: 2em;
+}
+
+.button {
+	background-color: rgb(191, 255, 251);
+	padding: 30px;
+	float: left;
+	border: 5px;
+}
+
+footer {
+	clear: left;
+	text-align: center;
+}
