@@ -11,17 +11,19 @@ body {
 	margin-bottom: 30px;
 	background-color: rgb(114, 78, 50);
 	box-shadow: 2px 3px 6px rgba(114, 80, 75, .5);
+	display: flex;
+	justify-content: flex-start;
 }
 
 #name {
 	font-size: 1.5em;
 	margin-left: 12%;
 	width: 200px;
+	justify-content: flex-start;
 }
 
 #pageLinks {
 	margin-left: 66%;
-	z-index: 4;
 }
 
 .button {
@@ -71,7 +73,9 @@ div p {
 	font-size: 13pt;
 	line-height: 1.8;
 }
+
 #navigationDiv {
+	overflow: auto;
 	margin-left: 64%;
 	margin-bottom: 30px;
 	padding: 20px;
@@ -80,9 +84,21 @@ div p {
 	box-shadow: 5px 4px 10px rgba(114, 80, 75, .5),
 			   -5px 1px 12px rgba(114, 80, 75, .2),
 			   -1px -4px 10px rgba(114, 80, 75, .2);
+	align-content: center;
 }
 
+div h4 {
+	margin-bottom: 15px;
+	border-bottom: 2px solid rgba(114, 80, 75, .5);
+	padding-bottom: 15px;
+	text-shadow: 2px 2px 15px rgba(114, 80, 75, .3);
+	opacity: .9;
+}
 
+.logo {
+	width: 50px;
+	height: 50px;
+}
 
 
 
