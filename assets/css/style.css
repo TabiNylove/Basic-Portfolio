@@ -15,15 +15,16 @@ body {
 	justify-content: flex-start;
 }
 
-#name {
+#nameDiv {
+	float: left;
 	font-size: 1.5em;
 	margin-left: 12%;
-	width: 200px;
-	justify-content: flex-start;
+	width: 400px;
 }
 
 #pageLinks {
-	margin-left: 66%;
+	margin-left: 22%;
+	font-size: 1.2em;
 }
 
 .button {
