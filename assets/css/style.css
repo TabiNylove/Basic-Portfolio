@@ -5,31 +5,82 @@ body {
 	background-color: rgb(191, 255, 251);
 }
 
-header {
-	font-family: Tahoma;
-	text-align: center;
+#header {
 	color: rgba(242, 196, 96, .5);
-	padding: 5px;
-	margin-bottom: 15px;
+	padding: 15px;
+	margin-bottom: 30px;
 	background-color: rgb(114, 78, 50);
 	box-shadow: 2px 3px 6px rgba(114, 80, 75, .5);
 }
 
-h2 {
-	float: left;
-	margin-left: 75px;
-	margin-right: 52%;
-	font-size: 2em;
+#name {
+	font-size: 1.5em;
+	margin-left: 12%;
+	width: 200px;
+}
+
+#pageLinks {
+	margin-left: 66%;
+	z-index: 4;
 }
 
 .button {
-	background-color: rgba(191, 255, 251);
-	padding: 10px;
-	float: left;
-	border-right: 1px solid rgb(56, 74, 104);
-	font-family: ;
+	color: rgba(242, 196, 96, .5);
+	border-right: 1px solid rgba(242, 196, 96, .2);
+	padding-right: 8px;
+	padding: 5px;
+	margin-bottom: 30px;
+	
 }
 
+#noBorder {
+	border: none;
+}
+
+#articleDiv {
+	clear: left;
+	float: left;
+	width: 45%;
+	margin-left: 12%;
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: rgba(244, 255, 253, .5);
+	box-shadow: 5px 4px 10px rgba(114, 80, 75, .5),
+			   -5px 1px 12px rgba(114, 80, 75, .2),
+			   -1px -4px 10px rgba(114, 80, 75, .2);
+}
+
+div h2 {
+	clear: both;
+	font-size: 2em;
+	margin-bottom: 25px;
+	border-bottom: 2px solid rgba(114, 80, 75, .5);
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 15px rgba(114, 80, 75, .3);
+	opacity: .9;
+}
+
+div img {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+div p {
+	font-size: 13pt;
+	line-height: 1.8;
+}
+#navigationDiv {
+	margin-left: 64%;
+	margin-bottom: 30px;
+	padding: 20px;
+	width: 20%;
+	background-color: rgba(244, 255, 253, .5);
+	box-shadow: 5px 4px 10px rgba(114, 80, 75, .5),
+			   -5px 1px 12px rgba(114, 80, 75, .2),
+			   -1px -4px 10px rgba(114, 80, 75, .2);
+}
 
 
 
@@ -38,4 +89,9 @@ h2 {
 footer {
 	clear: left;
 	text-align: center;
+	background-color: rgb(114, 78, 50);
+	box-shadow: -2px -3px 6px rgba(114, 80, 75, .5),
+				 2px 3px 6px rgba(114, 80, 75, .5);
+	color: rgba(242, 196, 96, .5);
+	padding: 15px;
 }
